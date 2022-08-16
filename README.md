@@ -1,24 +1,7 @@
 # README
+Hello, This is Chad Branton from 2Venture Interactive.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample friends list website I created in Ruby on Rails.
 
-Things you may want to cover:
+Enjoy!  :)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
