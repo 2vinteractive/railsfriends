@@ -1,0 +1,26 @@
+<% if friend.user == current_user %>
+  <div id="<%= dom_id friend %>">  
+    <td scope="col"> 
+      <%= link_to friend.first_name + ' ' + friend.last_name, friend %>       
+    </td>
+    <td scope="col">   
+      <%= friend.email %>
+    </td>
+    <td scope="col">    
+      <%= friend.phone %>
+    </td>
+    <td scope="col">    
+      <%= friend.twitter %>
+    </td>
+    <td scope="col">    
+      <%= friend.user_id %>
+    </td>     
+    <td scope="col">
+       <%= link_to "Delete", friend, data: {turbo_confirm: "Are you sure?", turbo_method: :delete}, class:"btn btn-danger" %>
+    </td>     
+  </div>
+<% else %>
+  <td scope="col">    
+     
+    </td>
+  <% end %>
